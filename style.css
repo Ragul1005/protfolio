@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amita", serif;
+}
+.fullpage{
+    width: 100%;
+    height: 100%;
+}
+
+
+.page {
+
+    width: 2000px;
+    height: 900px;
+    scroll-behavior: smooth;
+}
+
+.page i {
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+.page .class {
+    color: black;
+    margin-left: 60px;
+    height: 5px;
+
+    h5 {
+        font-size: 30px;
+        position: relative;
+        top: 300px;
+        left: 50px;
+
+    }
+
+    h1 {
+        position: relative;
+        top: 300px;
+        left: 50px;
+    }
+
+    button {
+        border: 1px solid;
+        border-radius: 50px;
+        height: 50px;
+        position: relative;
+        top: 350px;
+        left: 50px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+}
+
+
+.two ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        cursor: pointer;
+        position: relative;
+        top: 20px;
+         
+}
+
+.two img {
+    border: 1px solid;
+    border-radius: 100px;
+    width: 200px;
+    height: 250px;
+    bottom: 60%;
+
+    position: relative;
+    bottom: 100px;
+}
+
+.two ul li {
+    list-style: none;
+
+}
+
+.id {
+
+    width: 300px;
+    height: 350px;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+
+    button {
+        font-size: 20px;
+        border-radius: 600px;
+        cursor: pointer;
+        background-color: palevioletred;
+    }
+}
+
+.personal {
+    position: relative;
+    left: 850px;
+    bottom: 400px;
+    font-size: 20px;
+
+    h1 {
+        color: #2d90b7;
+
+        position: sticky;
+
+    }
+
+    a {
+        text-decoration: none;
+        position: static;
+    }
+
+}
+
+.experience {
+
+    position: relative;
+    bottom: 750px;
+    left: 1500px;
+
+    h1 {
+        color: #2d90b7;
+
+        font-size: 35px;
+    }
+
+    p {
+        margin-bottom: 100px;
+        font-size: 20px;
+    }
+
+}
+
+.three {
+    position: relative;
+    bottom: 500px;
+
+    h1 {
+        margin-left: 30px;
+    }
+
+
+
+}
+
+.three span {
+    color: palevioletred;
+}
+
+
+.three .box1 {
+
+    width: 500px;
+    height: 400px;
+    margin-left: 40px;
+
+    h1 {
+        margin-left: 150px;
+        color: #2d90b7;
+    }
+
+    h4 {
+        margin-left: 120px;
+    }
+
+    p {
+        margin-left: 120px;
+    }
+
+    h5 {
+        margin-left: 120px;
+    }
+}
+
+.box2 {
+
+    width: 400px;
+    height: 350px;
+    position: relative;
+    left: 720px;
+    bottom: 450px;
+
+    h1 {
+        text-align: center;
+        color: #2d90b7;
+    }
+
+}
+
+.box2 .one {
+    position: relative;
+    left: 100px;
+}
+
+.box2 .two {
+    position: relative;
+    left: 110px;
+}
+
+.box2 .four {
+    position: relative;
+    left: 85px;
+
+}
+
+.box2 .five {
+    position: relative;
+    left: 40px;
+
+}
+
+.box2 .five {
+    position: relative;
+    left: 40px;
+
+}
+
+.box2 .five {
+    position: relative;
+    left: 40px;
+
+}
+
+.box2 .five {
+    position: relative;
+    left: 40px;
+
+}
+
+.box2 .six {
+    position: relative;
+    left: 90px;
+}
+
+.box2 .eight {
+    position: relative;
+    left: 70px;
+
+}
+
+.box2 .seven {
+    position: relative;
+    left: 25px;
+}
+
+.box3 {
+
+    width: 200px;
+    height: 300px;
+    position: relative;
+    left: 1500px;
+    bottom: 800px;
+
+    h1 {
+        text-align: center;
+        color: #2d90b7;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+}
+
+.blog {
+    
+    position: relative;
+    bottom: 1200px;
+    
+}
+
+.blog span {
+    color: palevioletred;
+    margin-left: 50px;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    h1{
+        margin-left: 20px;
+
+    }
+
+}
+.photo img {
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+
+}
+
+.photo p {
+    text-align: justify;
+    margin-left: 20px;
+
+}
+.service{
+    background-image: linear-gradient(hsl(350, 100%, 88%));
+    position: relative;
+    bottom: 900px;
+    
+}
+
+
+.service span{
+    color: palevioletred;
+}
+.service h1{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    
+}
+section{
+display: flex;
+justify-content: space-between;
+}
+
+.service img{
+    position: relative;
+    top: 70px;
+    width: 400px;
+    height: 400px;
+    display: inline;
+    align-items: center;
+}
+
+
+.contect {
+    position: relative;
+    bottom: 600px;
+
+    font-size: 50px;
+}
+.contect .continer{
+    border: 1px solid;
+    width: 50%;
+    height: 50opx;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghLGn2sJDQymD8oZZOOnNHRJg3lrGIs_WWgYA6icJUefAkMZhSvwg-q4ht_ZdsYki3vzz7KF-r9t8k600XjGg7EOS35dDqls58B9Mw6TXjX2WNrHSZf3J3PX6WeJCQhUeaSl9Asi36JV70/s1600/Karur-map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px auto;
+}
+.contect .left-side {
+    
+    width: 40%;
+    height: 500px;
+
+    
+
+}
+.contect .left-side input{
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    
+}
+.contect .right-side img{
+border: 1px solid;
+width: 200px;
+height: 200px;
+border-radius: 60px;
+position: relative;
+left: 600px;
+bottom: 450px;
+    
+}
+.contect .right-side i{
+    cursor: pointer;
+    position: relative;
+    left: 400px;
+    color: red;
+    
+}
